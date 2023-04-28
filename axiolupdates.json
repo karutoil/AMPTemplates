@@ -3,7 +3,7 @@
         "UpdateStageName": "Download and Unzip Axiol",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://github.com/GitBolt/axiol.git",
+        "UpdateSourceData": "https://github.com/GitBolt/axiol/archive/refs/heads/master.zip",
         "UpdateSourceArgs": "",
         "UpdateSourceVersion": "",
         "UpdateSourceTarget": "",
