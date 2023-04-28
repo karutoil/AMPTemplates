@@ -85,6 +85,6 @@ Meta.MinAMPVersion=2.4.2.0
 Meta.NoCommercialUsage=False
 Meta.OS=2
 Meta.Prerequsites=[]
-Meta.SpecificDockerImage=
+Meta.SpecificDockerImage=cubecoders/ampbase:python3
 Meta.URL=https://github.com/GitBolt/axiol
 availablePortOptions=Custom Port,Main Game Port,Steam Query Port,RCON Port
