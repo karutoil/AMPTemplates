@@ -9,7 +9,6 @@
         "UpdateSourceTarget": "",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
-        "ForceDownloadPlatform": null,
         "UpdateSourceConditionSetting": null,
         "UpdateSourceConditionValue": null,
         "DeleteAfterExtract": true,
@@ -17,7 +16,7 @@
     },
     {
         "UpdateStageName": "",
-        "UpdateSourcePlatform": "All",
+        "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
         "UpdateSourceArgs": "pip install motor dnspython pillow disnake nltk python-dotenv && pip install -r requirements.txt",
@@ -25,10 +24,9 @@
         "UpdateSourceTarget": "",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
-        "ForceDownloadPlatform": null,
         "UpdateSourceConditionSetting": null,
         "UpdateSourceConditionValue": null,
         "DeleteAfterExtract": true,
-        "OneShot": false
+        "OneShot": true
     }
 ]
