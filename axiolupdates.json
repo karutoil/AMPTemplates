@@ -18,7 +18,7 @@
         "UpdateStageName": "",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
-        "UpdateSourceData": "/bin/bash",
+        "UpdateSourceData": "/usr/bin/python3",
         "UpdateSourceArgs": "pip install motor dnspython pillow disnake nltk python-dotenv && pip install -r requirements.txt",
         "UpdateSourceVersion": "",
         "UpdateSourceTarget": "",
