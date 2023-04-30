@@ -27,6 +27,6 @@
         "UpdateSourceConditionSetting": null,
         "UpdateSourceConditionValue": null,
         "DeleteAfterExtract": true,
-        "OneShot": true
+        "OneShot": false
     }
 ]
