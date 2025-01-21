@@ -18,13 +18,13 @@ export WINEARCH=win64
 export WINEDEBUG=fixme-all
 export DISPLAY=:$DPY_NUM
 
-wget -q -N https://raw.githubusercontent.com/Winetricks/winetricks/refs/heads/master/src/winetricks.1 -o winetricks
+wget -q -N https://raw.githubusercontent.com/Winetricks/winetricks/refs/heads/master/src/winetricks.1 -o
 chmod +x winetricks
 wget -q -O $WINEPREFIX/mono.msi https://dl.winehq.org/wine/wine-mono/9.1.0/wine-mono-9.1.0-x86.msi
 
 /usr/bin/wine msiexec /i $WINEPREFIX/mono.msi /qn /quiet /norestart /log $WINEPREFIX/mono_install.log
 
-PACKAGES="win11 corefonts vcrun2019 vcrun2017 vcrun2015"
+PACKAGES="win11 corefonts vcrun2022"
 echo "" > winescript_log.txt 2>&1
 for PACKAGE in $PACKAGES; do
   ./winetricks -q $PACKAGE >> winescript_log.txt 2>&1
