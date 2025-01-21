@@ -18,8 +18,7 @@ export WINEARCH=win64
 export WINEDEBUG=fixme-all
 export DISPLAY=:$DPY_NUM
 
-wget -q -N https://raw.githubusercontent.com/Winetricks/winetricks/refs/heads/master/src/winetricks.1
-mv winetricks.1 winetricks
+wget -q -N https://raw.githubusercontent.com/Winetricks/winetricks/1d441b422d9a9cc8b0a53fa203557957ca1adc44/src/winetricks
 chmod +x winetricks
 wget -q -O $WINEPREFIX/mono.msi https://dl.winehq.org/wine/wine-mono/9.1.0/wine-mono-9.1.0-x86.msi
 
